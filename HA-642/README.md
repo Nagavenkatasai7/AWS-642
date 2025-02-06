@@ -1,4 +1,4 @@
-I hope you are having a wonderful day. 
+Hello, I hope you are having a wonderful day. 
 
 Coming to the website, as per the instructions from the professors, I created 3 HTML pages. They are 
 
