@@ -96,6 +96,8 @@ AWS EC2 Instance
 
 10. And now I was able to access my website.
 
+URL: http://44.208.32.239/HA-642/
+
 
 
 
