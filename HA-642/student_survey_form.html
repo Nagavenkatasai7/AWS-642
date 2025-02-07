@@ -214,12 +214,22 @@
       <option value="November">November</option>
       <option value="December">December</option>
     </select>
+    <select class="form-select mb-3" aria-label="Default select example" required>
+      <option selected>Will you recomend this college to others.</option>
+      <option value="Very Likely">Very Likely</option>
+      <option value="Likely">Likely</option>
+      <option value="Unlikely">Unlikely</option>
+    </select>
+    <div class="mb-3">
+      <label for="raffleinput" class="form-label">Raffle</label>
+      <input type="text" class="form-control" id="raffleinput" placeholder="Enter at least ten comma separated numbers ranging from 1 through100 in the Raffle field">
+    </div>
     <!-- In the last we will take comments from the user and submit the form. -->
     <div class="form-floating mb-3">
       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
       <label for="floatingTextarea2">Comments</label>
     </div>
-    <button type="submit" class="btn btn-warning">Submit</button>
+    <button type="submit" class="btn btn-warning mb-3">Submit</button>    <a type="button" class="btn btn-danger mb-3" href="./error.html">Cancel</a>
   </form>
 <!-- Here we used bootstrap js for validation. -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
